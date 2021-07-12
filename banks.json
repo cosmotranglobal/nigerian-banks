@@ -1,25 +1,979 @@
-[
-    { "id": "1", "name": "Access Bank" ,"code":"044" },
-    { "id": "2", "name": "Citibank","code":"023" },
-    { "id": "3", "name": "Diamond Bank","code":"063" },
-    { "id": "4", "name": "Dynamic Standard Bank","code":"" },
-    { "id": "5", "name": "Ecobank Nigeria","code":"050" },
-    { "id": "6", "name": "Fidelity Bank Nigeria","code":"070" },
-    { "id": "7", "name": "First Bank of Nigeria","code":"011" },
-    { "id": "8", "name": "First City Monument Bank","code":"214" },
-    { "id": "9", "name": "Guaranty Trust Bank","code":"058" },
-    { "id": "10", "name": "Heritage Bank Plc","code":"030" },
-    { "id": "11", "name": "Jaiz Bank","code":"301" },
-    { "id": "12", "name": "Keystone Bank Limited","code":"082" },
-    { "id": "13", "name": "Providus Bank Plc","code":"101" },
-    { "id": "14", "name": "Polaris Bank","code":"076" },
-    { "id": "15", "name": "Stanbic IBTC Bank Nigeria Limited","code":"221" },
-    { "id": "16", "name": "Standard Chartered Bank","code":"068" },
-    { "id": "17", "name": "Sterling Bank","code":"232" },
-    { "id": "18", "name": "Suntrust Bank Nigeria Limited","code":"100" },
-    { "id": "19", "name": "Union Bank of Nigeria","code":"032" },
-    { "id": "20", "name": "United Bank for Africa","code":"033" },
-    { "id": "21", "name": "Unity Bank Plc","code":"215" },
-    { "id": "22", "name": "Wema Bank","code":"035" },
-    { "id": "23", "name": "Zenith Bank","code":"057" }
-]
+{
+  "select": {
+    "@data-v-51c67f94": "",
+    "@required": "required",
+    "@class": "select__input text-uppercase",
+    "option": [
+      {
+        "@data-v-51c67f94": "",
+        "@value": "",
+        "#text": "Select Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090133",
+        "#text": "AL-Barakah Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090270",
+        "#text": "AB Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070010",
+        "#text": "Abbey Mortgage Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090260",
+        "#text": "Above Only Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090197",
+        "#text": "ABU Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "044",
+        "#text": "Access Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100013",
+        "#text": "AccessMobile"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090134",
+        "#text": "Accion Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090160",
+        "#text": "Addosser Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090268",
+        "#text": "Adeyemi College Staff Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100028",
+        "#text": "AG Mortgage Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090277",
+        "#text": "Al-Hayat Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090259",
+        "#text": "Alekun Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090131",
+        "#text": "Allworkers Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090169",
+        "#text": "Alpha Kapital Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090180",
+        "#text": "AMJU Unique Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090116",
+        "#text": "AMML MFB"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090143",
+        "#text": "Apeks Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090001",
+        "#text": "ASOSavings & Loans"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090172",
+        "#text": "Astrapolaris Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090264",
+        "#text": "Auchi Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090188",
+        "#text": "Baines Credit Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090136",
+        "#text": "Baobab Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090127",
+        "#text": "BC Kash Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090117",
+        "#text": "Boctrust Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090176",
+        "#text": "Bosak Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090148",
+        "#text": "Bowen Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070015",
+        "#text": "Brent Mortgage Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090393",
+        "#text": "BRIDGEWAY MICROFINANCE BANK"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100005",
+        "#text": "Cellulant"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090154",
+        "#text": "CEMCS Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "303",
+        "#text": "ChamsMobile"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090141",
+        "#text": "Chikum Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090144",
+        "#text": "CIT Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "023",
+        "#text": "Citi Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090130",
+        "#text": "Consumer Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100032",
+        "#text": "Contec Global Infotech Limited (NowNow)"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "060001",
+        "#text": "Coronation Merchant Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070006",
+        "#text": "Covenant Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090159",
+        "#text": "Credit Afrique Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090167",
+        "#text": "Daylight Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090156",
+        "#text": "e-Barcs Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100021",
+        "#text": "Eartholeum"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "050",
+        "#text": "EcoBank PLC"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100008",
+        "#text": "Ecobank Xpress Account"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100030",
+        "#text": "EcoMobile"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090097",
+        "#text": "Ekondo MFB"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090273",
+        "#text": "Emeralds Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090114",
+        "#text": "Empire trust MFB"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "000019",
+        "#text": "Enterprise Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090189",
+        "#text": "Esan Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090166",
+        "#text": "Eso-E Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100006",
+        "#text": "eTranzact"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090328",
+        "#text": "Eyowo MFB"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090179",
+        "#text": "FAST Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090107",
+        "#text": "FBN Mortgages Limited"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100014",
+        "#text": "FBNMobile"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "060002",
+        "#text": "FBNQUEST Merchant Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100031",
+        "#text": "FCMB Easy Account"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100001",
+        "#text": "FET"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090153",
+        "#text": "FFS Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070",
+        "#text": "Fidelity Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100019",
+        "#text": "Fidelity Mobile"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090126",
+        "#text": "Fidfund Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "608",
+        "#text": "FINATRUST MICROFINANCE BANK"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "011",
+        "#text": "First Bank PLC"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "214",
+        "#text": "First City Monument Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070014",
+        "#text": "First Generation Mortgage Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090164",
+        "#text": "First Royal Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "110002",
+        "#text": "Flutterwave Technology Solutions Limited"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070002",
+        "#text": "Fortis Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100016",
+        "#text": "FortisMobile"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "400001",
+        "#text": "FSDH Merchant Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090145",
+        "#text": "Fullrange Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090158",
+        "#text": "Futo Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090168",
+        "#text": "Gashua Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070009",
+        "#text": "Gateway Mortgage Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "103",
+        "#text": "Globus Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100022",
+        "#text": "GoMoney"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090122",
+        "#text": "Gowans Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090178",
+        "#text": "GreenBank Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090269",
+        "#text": "Greenville Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090195",
+        "#text": "Grooming Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100009",
+        "#text": "GTMobile"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "058",
+        "#text": "Guaranty Trust Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090147",
+        "#text": "Hackman Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070017",
+        "#text": "Haggai Mortgage Bank Limited"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090121",
+        "#text": "Hasal Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100017",
+        "#text": "Hedonmark"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "030",
+        "#text": "Heritage Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090175",
+        "#text": "HighStreet Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090118",
+        "#text": "IBILE Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090258",
+        "#text": "Imo State Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100024",
+        "#text": "Imperial Homes Mortgage Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090157",
+        "#text": "Infinity Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070016",
+        "#text": "Infinity Trust Mortgage Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100029",
+        "#text": "Innovectives Kesh"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100027",
+        "#text": "Intellifin"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090149",
+        "#text": "IRL Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "301",
+        "#text": "Jaiz Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090003",
+        "#text": "Jubilee-Life Mortgage Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090191",
+        "#text": "KCMB Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100015",
+        "#text": "Kegow"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "082",
+        "#text": "Keystone Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090267",
+        "#text": "Kuda"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090155",
+        "#text": "La Fayette Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070012",
+        "#text": "Lagos Building Investment Company"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090177",
+        "#text": "Lapo Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090271",
+        "#text": "Lavender Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090265",
+        "#text": "Lovonus Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090171",
+        "#text": "Mainstreet Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090174",
+        "#text": "Malachy Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090192",
+        "#text": "Midland Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090281",
+        "#text": "Mint-Finex MICROFINANCE BANK"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100011",
+        "#text": "Mkudi"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090129",
+        "#text": "Money Trust Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100020",
+        "#text": "MoneyBox"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090190",
+        "#text": "Mutual Benefits Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090151",
+        "#text": "Mutual Trust Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090152",
+        "#text": "Nagarta Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090263",
+        "#text": "Navy Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090128",
+        "#text": "Ndiorah Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090205",
+        "#text": "New Dawn Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090108",
+        "#text": "New Prudential Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "999999",
+        "#text": "NIP Virtual Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090194",
+        "#text": "NIRSAL Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "060003",
+        "#text": "Nova Merchant Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070001",
+        "#text": "NPF MicroFinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090119",
+        "#text": "Ohafia Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090161",
+        "#text": "Okpoga Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090272",
+        "#text": "Olabisi Onabanjo University Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070007",
+        "#text": "Omoluabi savings and loans"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100026",
+        "#text": "One Finance"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "327",
+        "#text": "Paga"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070008",
+        "#text": "Page Financials"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100003",
+        "#text": "Parkway-ReadyCash"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090004",
+        "#text": "Parralex Microfinance bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090317",
+        "#text": "PatrickGold Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "110001",
+        "#text": "PayAttitude Online"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "305",
+        "#text": "Paycom"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090137",
+        "#text": "PecanTrust Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090196",
+        "#text": "Pennywise Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090135",
+        "#text": "Personal Trust Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090165",
+        "#text": "Petra Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070013",
+        "#text": "Platinum Mortgage Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "076",
+        "#text": "Polaris bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "101",
+        "#text": "ProvidusBank PLC"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090261",
+        "#text": "Quickfund Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "502",
+        "#text": "Rand merchant Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "070011",
+        "#text": "Refuge Mortgage Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090125",
+        "#text": "Regent Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090173",
+        "#text": "Reliance Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090198",
+        "#text": "RenMoney Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090132",
+        "#text": "Richway Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090138",
+        "#text": "Royal Exchange Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090175",
+        "#text": "Rubies Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090006",
+        "#text": "SafeTrust"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090140",
+        "#text": "Sagamu Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090112",
+        "#text": "Seed Capital Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090325",
+        "#text": "Sparkle"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100007",
+        "#text": "Stanbic IBTC @ease wallet"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "221",
+        "#text": "Stanbic IBTC Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "068",
+        "#text": "Standard Chaterted bank PLC"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090162",
+        "#text": "Stanford Microfinance Bak"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090262",
+        "#text": "Stellas Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "232",
+        "#text": "Sterling Bank PLC"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100",
+        "#text": "Suntrust Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100023",
+        "#text": "TagPay"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "000026",
+        "#text": "Taj Bank Limited"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090115",
+        "#text": "TCF MFB"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100010",
+        "#text": "TeasyMobile"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "000025",
+        "#text": "Titan Trust Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090146",
+        "#text": "Trident Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090005",
+        "#text": "Trustbond Mortgage Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090276",
+        "#text": "Trustfund Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090266",
+        "#text": "Uniben Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090193",
+        "#text": "Unical Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "032",
+        "#text": "Union Bank PLC"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "033",
+        "#text": "United Bank for Africa"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "215",
+        "#text": "Unity Bank PLC"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090251",
+        "#text": "UNN MFB"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090123",
+        "#text": "Verite Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090110",
+        "#text": "VFD Micro Finance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090150",
+        "#text": "Virtue Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090139",
+        "#text": "Visa Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100012",
+        "#text": "VTNetworks"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "035",
+        "#text": "Wema Bank PLC"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090120",
+        "#text": "Wetland Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090124",
+        "#text": "Xslnce Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "090142",
+        "#text": "Yes Microfinance Bank"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "057",
+        "#text": "Zenith bank PLC"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100018",
+        "#text": "ZenithMobile"
+      },
+      {
+        "@data-v-51c67f94": "",
+        "@value": "100025",
+        "#text": "Zinternet Nigera Limited"
+      }
+    ]
+  }
+}
